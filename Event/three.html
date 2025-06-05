@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let interid
+    const saydate =function(str){
+        console.log(str,Date.now());
+    }
+   document.getElementById("start").addEventListener("click",function()
+{
+    if(!interid)
+{
+
+ interid = setInterval(saydate,1000, "hi");
+}
+   });
+   document.getElementById("stop").addEventListener("click",function(){
+
+    clearInterval(interid)
+    interid=null
+   });
+</script>
+</html>
