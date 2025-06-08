@@ -1,0 +1,18 @@
+#javascript and classes
+#object
+-collection of properties and methods
+ex:toLowerCase
+
+#why use oop
+
+#parts of oop
+object literal
+-Constructor function
+-Prototypes
+-classes-Instances (new,this)
+
+## 4 pillars
+Abstraction Ex:fetch
+Encapsulation
+Inheritance
+Polymorphism
