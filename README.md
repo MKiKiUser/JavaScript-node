@@ -1,2 +1,2 @@
 # JavaScript-node
-A code repo for js series
+A code repo for js series.
